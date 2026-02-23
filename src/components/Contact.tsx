@@ -4,13 +4,27 @@ const Contact: React.FC = () => {
   return (
     <section id="contact" className="section">
       <h2>Contact</h2>
-      <p>Email: tanishagangadharaiaheu@gmail.com</p>
       <p>
-        LinkedIn:{" "}
+        Email:{" "}
+        <a
+            href="mailto:tanishagangadharaiaheu@gmail.com"
+            className="contact-link"
+        >
+            tanishagangadharaiaheu@gmail.com
+        </a>
+        </p>
+       <p>Github: {" "}
+         <a
+          href="https://github.com/Tanisha190"   
+          className="contact-link">
+            https://github.com/Tanisha190
+
+          </a>
+        </p>
+        <p>
+        LinkedIn: {" "}
         <a
           href="https://www.linkedin.com/in/tanisha-gangadharaiah/"
-          target="_blank"
-          rel="noopener noreferrer"
           className="contact-link"
         >
          linkedin.com/in/tanisha-gangadharaiah/

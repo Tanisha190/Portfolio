@@ -1,15 +1,10 @@
 import { type Project} from "../types/Project";
-import reactSvg from "../assets/react.svg";
+import portfolio from "../assets/portfolio.png";
 
 export const projects: Project[] = [
   {
     title: "Portfolio",
-    github: "#",
-    image: reactSvg,
-  },
-  {
-    title: "Nest.js Boiler plate",
-    github: "#",
-    image: reactSvg,
-  },
+    github: "https://github.com/Tanisha190/Portfolio",
+    image: portfolio,
+  }
 ];

@@ -8,11 +8,19 @@ const Projects: React.FC = () => {
       <h2>Projects</h2>
       <div className="projects-container">
         {projects.map((project: Project, index: number) => (
-          <div key={index} className="project-card">
-            <h3>{project.title}</h3>
+          <div key={index} className="project-card" >
+            <a 
+              key={index}
+              href={project.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-card"
+            >
+            <h3 className="project-title">{project.title}</h3>
             {project.image && (
               <img src={project.image} alt={project.title} className="project-image" />
             )}
+           </a>
           </div>
         ))}
       </div>

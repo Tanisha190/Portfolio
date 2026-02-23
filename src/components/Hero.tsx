@@ -25,7 +25,13 @@ const Hero: React.FC = () => {
   return (
     <section id="intro" className="hero">
       <h1>{displayedName}</h1>
+
       <p>{intro}</p>
+       <p className="open-to-work">💼 Currently Open to Developer Roles in Spain & EU</p>
+      <ul className="open-list">
+       <li>Valid work authorization in Spain</li>
+       <li>Open to remote opportunities</li>
+      </ul>
     </section>
   );
 };
