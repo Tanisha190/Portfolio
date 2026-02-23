@@ -16,13 +16,13 @@ const Navbar: React.FC = () => {
       </div>
       <div className="nav-links">
         <a href="https://www.linkedin.com/in/tanisha-gangadharaiah/">
-          <img className="social-icon" src="src/assets/linkedin.png"   />
+          <img className="social-icon" src="/assets/linkedin.png"   />
         </a>
         <a href="mailto:tanishagangadharaiaheu@gmail.com">
-          <img className="social-icon" src="src/assets/email.png" />
+          <img className="social-icon" src="/assets/email.png" />
         </a>
         <a href="https://github.com/Tanisha190">
-          <img className="social-icon" src="src/assets/github.png" />
+          <img className="social-icon" src="/assets/github.png" />
         </a>
    
       </div>

@@ -1,5 +1,5 @@
 import { type Project} from "../types/Project";
-import portfolio from "../assets/portfolio.png";
+import portfolio from "../../public/assets/portfolio.png";
 
 export const projects: Project[] = [
   {
