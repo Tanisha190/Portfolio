@@ -49,13 +49,14 @@ const experiences: ExperienceItem[] = [
           {
             descriptions: [
               "Developed API's for consignment management system and AWS Lambda for real time currency conversion and used Apache Kafka to upadate databases in real time.",
+              "Developed GraphQL apis with Apollo server for loading of necessary data efficiently.",
               "Created a one-on-one chat system using Socket.io for real-time communication.",
               "Integrated third-party services like ZOOP.ONE for real time GST and PAN verification and Razorpay for payment processing.",
               "Developed and maintained a CMS portal for content management.",
               "Developed API's for a mobility platform using Nest.js.",
               "Contributed to development of Nest.js boilerplate for rapid project setup and standardized development practices."
             ],
-            technologies: "React, Redux, PostgreSQL, Node.js,Nest.js, Express.js, Apache Kafka, Socket.io, AWS Lambda, ZOOP.ONE API, Razorpay API, Jest",
+            technologies: "React, Redux, GraphQL, PostgreSQL, Node.js,Nest.js, Express.js, Apache Kafka, Socket.io, AWS Lambda, ZOOP.ONE API, Razorpay API, Jest",
           },
         ],
       },
