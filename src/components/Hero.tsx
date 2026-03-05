@@ -4,7 +4,7 @@ const Hero: React.FC = () => {
   const [displayedName, setDisplayedName] = useState("");
 
   const name = "Hi, I'm Tanisha Gangadharaiah👋";
-  const intro = "I’m an engineering professional with over 4 years of experience building reliable and scalable solutions in fast-paced environments.I am always eager to expand my knowledge, explore emerging technologies, and continuously strengthen my expertise to stay aligned with evolving industry standards and deliver greater value over time.";
+  const intro = "Software Developer with 4+ years of experience designing scalable microservices and event-driven systems. Proven expertise in developing high-performance APIs and integrating secure payment solutions using Node.js, MongoDB, and PostgreSQL. Experienced with React.js for end-to-end feature development, enabling seamless full-stack delivery."
 
   useEffect(() => {
     let nameIndex = 0;
